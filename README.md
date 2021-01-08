@@ -13,4 +13,5 @@ We uploaded the pre-trained model to Baidu cloud (the model which the mean PSNR 
 ![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Autoencoder/main/visual_results.png)
 ## A drawback of PULSE concluded in our paper
 ![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Autoencoder/main/align_PULSE.png)
+
 In our 100 test face images, there are 24 face images are not detected by the predictor for any facial key points. Since the face images need to be aligned in advance, PULSE can only restore the remaining 76 LR face images to corresponding HR face images.
