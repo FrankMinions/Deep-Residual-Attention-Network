@@ -16,8 +16,9 @@ We uploaded the pre-trained model (with mosaic level 5) to Baidu cloud (the mode
 
 ## Some Visual Results of Different Demosaicing Methods
 In the experiment, we compared the performance of DRAN with different mosaic levels, and the extensive experiments show that DRAN can achieve the face mosaic removal with different mosaic levels, and it outperforms the state-of-the-art methods.
+![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Network/main/visual_results.png)
 
 ## A Drawback of PULSE Concluded in Our Paper
-![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Autoencoder/main/align_PULSE.png)
+![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Network/main/align_PULSE.png)
 
 In our 100 test face images, there are 24 face images are not detected by the predictor for any facial key points. Since the face images need to be aligned in advance, PULSE can only restore the remaining 76 LR face images to corresponding HR face images.
