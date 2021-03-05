@@ -4,6 +4,7 @@ We proposed a novel deep residual attention network (DRAN), an end-to-end traina
 ## Requirements
 * PyTorch
 * torchvision
+* OpenCV
 
 ## Training
 ''' First, you should run draa_train.py to obtain the optimal models, they are saved in the "saved_models" folder. The pre-trained model which the mean PSNR and the mean SSIM are 20.60dB and 0.8485 (with mosaic level 5) respectively was saved in the "saved_models" folder, you can use the test set to test directly. '''
