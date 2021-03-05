@@ -22,4 +22,4 @@ In the experiment, we compared the performance of DRAN with different mosaic lev
 ## A Drawback of PULSE Concluded in Our Paper
 ![Image text](https://raw.githubusercontent.com/FrankMinions/Deep-Residual-Attention-Network/main/align_PULSE.png)
 
-In our 100 test face images, there are 24 face images are not detected by the predictor for any facial key points. Since the face images need to be aligned in advance, PULSE can only restore the remaining 76 LR face images to corresponding HR face images.
+In our 100 test face images, when the mosaic level is 5, there are 24 face images are not detected by the predictor for any facial key points. Since the face images need to be aligned in advance, PULSE can only restore the remaining 76 LR face images to corresponding HR face images. 
