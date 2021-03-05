@@ -1,4 +1,4 @@
-# Deep-Residual-Attention-Autoencoder
+# Deep-Residual-Attention-Network
 We proposed a deep residual attention autoencoder (DRAA), an end-to-end trainable network which is used to achieve the face mosaic removal. We selected a large-scale CelebFaces attributes (CelebA) dataset, and the first 18000 images are selected as the training set, while the following 100 images are selected for evaluation which is similar to the previous work. The CelebA dataset can be available at http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
 
 ## Requirements
